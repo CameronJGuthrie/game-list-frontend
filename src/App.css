@@ -1,0 +1,35 @@
+#root,
+.app {
+  height: 100%;
+}
+
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  min-height: 48px;
+}
+
+input, textarea {
+  padding-left: 4px;
+}
+
+input, select, textarea {
+  margin-bottom: 8px;
+  outline: none;
+  background: #00000028;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #545454;
+  opacity: 1;  /* this is for firefox */
+}

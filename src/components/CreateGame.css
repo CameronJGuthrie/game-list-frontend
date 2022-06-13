@@ -1,0 +1,11 @@
+.create-game-container {
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-game-container input,
+.create-game-container select,
+.create-game-container textarea {
+  text-align: center;
+}
